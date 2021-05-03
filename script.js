@@ -9,7 +9,6 @@ const clr = document.querySelector('[type=reset]');
 const readtxt = document.querySelector('[type=button]');
 
 const imgUpdate = document.getElementById('image-input');
-const volume = document.querySelector('input[type="range"]');
 
 // Fires whenever the img object loads a new image (such as with img.src =)
 img.addEventListener('load', () => {
