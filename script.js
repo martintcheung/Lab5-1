@@ -4,9 +4,9 @@ const img = new Image(); // used to load image from <input> and draw to canvas
 
 const canvas = document.getElementById('user-image');
 const ctx = canvas.getContext('2d');
-const gen = document.querySelector('button[type=submit]');
-const clr = document.querySelector('button[type=reset]');
-const readtxt = document.querySelector('button[type=button]');
+const gen = document.querySelector('[type=submit]');
+const clr = document.querySelector('[type=reset]');
+const readtxt = document.querySelector('[type=button]');
 
 const imgUpdate = document.getElementById('image-input');
 const volume = document.querySelector('input[type="range"]');
